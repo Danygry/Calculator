@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Esegui calcoli matematici</title>
+    <meta name="description"content="Calcolatrice online facile, comoda e gratuita per eseguire calcoli matematici">
+    <link rel="stylesheet" type="text/css" href="calcolatrice.css">
+    <script src="calcolatrice.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>Calcolatrice Online</h1>
+            <p>Semplice e veloce</p>
+
+
+
+            <div id="calcolatrice">
+                <input id="display" autofocus>
+                <div id="pulsantiera">
+
+                    <input type="button" value="sin" onclick="inserisciFunzione('Math.sin')">
+                    <input type="button" value="cos" onclick="inserisciFunzione('Math.cos')">
+                    <input type="button" value="tan" onclick="inserisciFunzione('Math.tan')">
+                    <input type="button" value="atn" onclick="inserisciFunzione('Math.atan')">
+
+                    <input type="button" value="(" onclick="aggiungiALDisplay('(')">
+                    <input type="button" value=")" onclick="aggiungiALDisplay(')')">
+                    <input type="button" value="←" onclick="rimuoviUltimoCarattere()">
+                    <input type="button" value="C" onclick="visualizza('')">
+
+                    <input type="button" value="1" onclick="aggiungiALDisplay('1')">
+                    <input type="button" value="2" onclick="aggiungiALDisplay('2')">
+                    <input type="button" value="3" onclick="aggiungiALDisplay('3')">
+                    <input type="button" value="+" onclick="aggiungiALDisplay('+')">
+
+                    <input type="button" value="4" onclick="aggiungiALDisplay('4')">
+                    <input type="button" value="5" onclick="aggiungiALDisplay('5')">
+                    <input type="button" value="6" onclick="aggiungiALDisplay('6')">
+                    <input type="button" value="-" onclick="aggiungiALDisplay('-')">
+
+                    <input type="button" value="7" onclick="aggiungiALDisplay('7')">
+                    <input type="button" value="8" onclick="aggiungiALDisplay('8')">
+                    <input type="button" value="9" onclick="aggiungiALDisplay('9')">
+                    <input type="button" value="X" onclick="aggiungiALDisplay('*')">
+
+                    <input type="button" value="0" onclick="aggiungiALDisplay('0')">
+                    <input type="button" value="." onclick="aggiungiALDisplay('.')">
+                    <input type="button" value="=" onclick="risolviEspressioneDisplay()">
+                    <input type="button" value="/" onclick="aggiungiALDisplay('/')">
+                    </div>
+            </div>
+
+            <p>Lo scopo di questa calcolatrice stà nel consentire </br>
+            di effettuare vari calcoli online con estrema semplicità </br>
+            e in maniera completamente gratuita</p>
+            
+            
+    </header>
+        <div class="container">
+            <div class="footer">© 2022 Calculator - Tutti diritti riservati</footer>
+        </div>
+    </body>
+</html>
