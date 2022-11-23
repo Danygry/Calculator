@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box; /*RESET DI BASE*/
+}
+
+
+
+body {
+    background:#232525;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+h1 {
+font-family: Arial, sans-serif; /* STTLI TITOLO*/
+color: #45adf8;
+text-align: center;
+}
+
+
+
+p{
+    font-family: Arial, sans-serif; /*STILI PARAGRAFO*/
+    color: #EBF0E7;
+    text-align: center;
+}
+
+#calcolatrice {    /* CONTENITORE PRINCIPALE*/
+    width: 350px;
+    padding: 8px;
+    background: #000000;
+    border: 2px solid #929292;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#display {
+    width: 100%;
+    margin: 20px 0 19px;
+    padding: 15px;
+    font: 24px/1 "Arial", sans-serif;
+    text-align: right;
+    border: 1px solid grey;
+    color: #CFCFCF;
+    background: #2399ee;
+}
+
+#display::-ms-clear {
+    display: none;
+}
+
+#pulsantiera {     /* STILI DEI PULSANTI*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: #000000;
+}
+
+#pulsantiera input {
+    width: calc(90% / 4);
+    margin: 3px 0;
+    padding: 8px;
+    font: bold 20px/1.2 "Arial-black", Gadget, sans-serif;
+    text-align: center;
+    border: 2px solid #929292;
+    color:#929292;
+    background:#000000;
+    cursor: pointer;
+
+}
+
+#pulsantiera input:hover {
+    border-color: #4db2fa;
+    color: #4db2fa;
+    box-shadow: 0px 0px 20px #4db2fa, inset 0px 0px 15px #4db2fa;
+	color: #4db2fa;
+}
+
+.footer {
+    color: #EBF0E7;
+    text-align: center;
+    padding: 1em;
+    font-family: Arial, sans-serif;
+    margin-top: 151px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+
