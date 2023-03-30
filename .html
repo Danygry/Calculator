@@ -4,20 +4,23 @@
 <head>
     <title>Esegui calcoli matematici</title>
     <meta name="description"content="Calcolatrice online facile, comoda e gratuita per eseguire calcoli matematici">
-    <link rel="stylesheet" type="text/css" href="calcolatrice.css">
-    <script src="calcolatrice.js"></script>
+    <link rel="stylesheet" type="text/css" href="calcolatrice.css"> <!--PERCORSO FILE CSS-->
 </head>
 
 <body>
     <div class="wrapper">
 
         <header>
-            <h1>Calcolatrice Online</h1>
-            <p>Semplice e veloce</p>
+            <h1 class = "calcolatrice">
+                CALCOLATRICE ONLINE</h1>
+            
+                <p class = "colore">
+                    SEMPLICE E VELOCE</p>
 
 
-
-            <div id="calcolatrice">
+                <!--CONTENITORE PRINCIPALE-->
+            
+                <div id="calcolatrice">
                 <input id="display" autofocus>
                 <div id="pulsantiera">
 
@@ -58,9 +61,14 @@
             e in maniera completamente gratuita</p>
             
             
-    </header>
-        <div class="container">
-            <div class="footer">© 2022 Calculator - Tutti diritti riservati</footer>
+    
+        </header>
+          <div class="container">
+            <div class="footer">&copy
+                <span id="year"></span>
+                Calculator - Tutti diritti riservati
+            </footer>
         </div>
+        <script src="calcolatrice.js"></script>  <!--PERCORSO JS-->
     </body>
 </html>
