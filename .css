@@ -1,11 +1,11 @@
 *{
-    box-sizing: border-box; /*RESET DI BASE*/
+    box-sizing: border-box; /* RESET DI BASE */
 }
 
 
 
 body {
-    background:#232525;
+    background:#0D0E0E;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -16,20 +16,36 @@ body {
 
 
 h1 {
-font-family: Arial, sans-serif; /* STTLI TITOLO*/
-color: #45adf8;
+font-family: Arial, sans-serif; /* STTLI TITOLO */
 text-align: center;
 }
 
+.calcolatrice {
+    background-image: linear-gradient(90deg,#38BBF8 0%, #84FFF9);
+    color: transparent;
+    -webkit-background-clip: text;
 
-
-p{
-    font-family: Arial, sans-serif; /*STILI PARAGRAFO*/
-    color: #EBF0E7;
-    text-align: center;
 }
 
-#calcolatrice {    /* CONTENITORE PRINCIPALE*/
+
+
+p{          /* STILI PARAGRAFO */
+    background: linear-gradient( 90deg,#38BBF8 0%, #84FFF9); 
+    font-family: Arial, sans-serif; 
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    width: 500px;
+    
+}
+
+.colore {
+    background-color: #85D4F8;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#calcolatrice {    /* CONTENITORE PRINCIPALE */
     width: 350px;
     padding: 8px;
     background: #000000;
@@ -45,15 +61,15 @@ p{
     font: 24px/1 "Arial", sans-serif;
     text-align: right;
     border: 1px solid grey;
-    color: #CFCFCF;
-    background: #2399ee;
+    color: #ECECEC;
+    background: #0296FF;
 }
 
 #display::-ms-clear {
     display: none;
 }
 
-#pulsantiera {     /* STILI DEI PULSANTI*/
+#pulsantiera {     /* STILI DEI PULSANTI */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -75,14 +91,14 @@ p{
 
 }
 
-#pulsantiera input:hover {
-    border-color: #4db2fa;
-    color: #4db2fa;
-    box-shadow: 0px 0px 20px #4db2fa, inset 0px 0px 15px #4db2fa;
-	color: #4db2fa;
+#pulsantiera input:hover {    /* STILI PULSANTI PASSAGGIO MOUSE */
+    border-color: #A4DDFA;
+    color: #A4DDFA;
+    box-shadow: 0px 0px 20px #A4DDFA, inset 0px 0px 15px #A4DDFA;
+	color: #A4DDFA;
 }
 
-.footer {
+.footer {               /* STILI DEL FOOTER */
     color: #EBF0E7;
     text-align: center;
     padding: 1em;
