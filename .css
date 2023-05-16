@@ -61,8 +61,8 @@ p{          /* STILI PARAGRAFO */
     font: 24px/1 "Arial", sans-serif;
     text-align: right;
     border: 1px solid grey;
-    color: #ECECEC;
-    background: #0296FF;
+    color: #D7E1E0;
+    background: #0492F8;
 }
 
 #display::-ms-clear {
