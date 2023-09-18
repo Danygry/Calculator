@@ -1,20 +1,26 @@
+/*--------------------------------------------------------------
+ # RESET DI BASE
+--------------------------------------------------------------*/
 *{
-    box-sizing: border-box; /* RESET DI BASE */
+    box-sizing: border-box; 
 }
 
-
-
+/*--------------------------------------------------------------
+ # STILE PAGINA APP
+--------------------------------------------------------------*/
 body {
     background:#0D0E0E;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 
-
-
+/*--------------------------------------------------------------
+ # TITOLO
+--------------------------------------------------------------*/
 h1 {
 font-family: Arial, sans-serif; /* STTLI TITOLO */
 text-align: center;
@@ -23,13 +29,14 @@ text-align: center;
 .calcolatrice {
     background-image: linear-gradient(90deg,#38BBF8 0%, #84FFF9);
     color: transparent;
-    -webkit-background-clip: text;
+   -webkit-background-clip: text;
 
 }
 
-
-
-p{          /* STILI PARAGRAFO */
+/*--------------------------------------------------------------
+ # STILI PARAGRAFO
+--------------------------------------------------------------*/
+p{          
     background: linear-gradient( 90deg,#38BBF8 0%, #84FFF9); 
     font-family: Arial, sans-serif; 
     color: #000000;
@@ -45,7 +52,10 @@ p{          /* STILI PARAGRAFO */
     -webkit-background-clip: text;
 }
 
-#calcolatrice {    /* CONTENITORE PRINCIPALE */
+/*--------------------------------------------------------------
+ # CONTENITORE PRINCIPALE
+--------------------------------------------------------------*/
+#calcolatrice {    
     width: 350px;
     padding: 8px;
     background: #000000;
@@ -54,11 +64,14 @@ p{          /* STILI PARAGRAFO */
     margin-right: auto;
 }
 
+/*--------------------------------------------------------------
+ # STILE DISPLAY CALCOLATRICE
+--------------------------------------------------------------*/
 #display {
     width: 100%;
     margin: 20px 0 19px;
     padding: 15px;
-    font: 24px/1 "Arial", sans-serif;
+    font: 25px/1 "Arial", sans-serif;
     text-align: right;
     border: 1px solid grey;
     color: #D7E1E0;
@@ -69,7 +82,10 @@ p{          /* STILI PARAGRAFO */
     display: none;
 }
 
-#pulsantiera {     /* STILI DEI PULSANTI */
+/*--------------------------------------------------------------
+ # STILI DEI PULSANTI
+--------------------------------------------------------------*/
+#pulsantiera {     
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -91,14 +107,20 @@ p{          /* STILI PARAGRAFO */
 
 }
 
-#pulsantiera input:hover {    /* STILI PULSANTI PASSAGGIO MOUSE */
+/*--------------------------------------------------------------
+ # STILI PULSANTI PASSAGGIO MOUSE
+--------------------------------------------------------------*/
+#pulsantiera input:hover {    
     border-color: #A4DDFA;
     color: #A4DDFA;
     box-shadow: 0px 0px 20px #A4DDFA, inset 0px 0px 15px #A4DDFA;
 	color: #A4DDFA;
 }
 
-.footer {               /* STILI DEL FOOTER */
+/*--------------------------------------------------------------
+ # STILI DEL FOOTER
+--------------------------------------------------------------*/
+.footer {               
     color: #EBF0E7;
     text-align: center;
     padding: 1em;
@@ -106,8 +128,9 @@ p{          /* STILI PARAGRAFO */
     margin-top: 151px;
 }
 
+/*--------------------------------------------------------------
+ # STRUTTURA GENERALE PAGINA APP
+--------------------------------------------------------------*/
 .wrapper {
     text-align: center;
 }
-
-
